@@ -1,0 +1,22 @@
+{
+  "name": "LaTeX DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "James-Yu.latex-workshop"
+      ],
+      "settings": {
+        "latex-workshop.latex.autoBuild.run": "onSave",
+        "latex-workshop.latex.outDir": "out",
+        "latex-workshop.latex.clean.enabled": true,
+        "files.autoSave": "afterDelay",
+        "terminal.integrated.shell.linux": "/bin/bash"
+      }
+    }
+  },
+  "postCreateCommand": "bash .devcontainer/setup.sh",
+  "remoteUser": "vscode"
+}

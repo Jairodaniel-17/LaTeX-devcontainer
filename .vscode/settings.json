@@ -1,0 +1,21 @@
+{
+  "files.exclude": {
+    "**/*.aux": true,
+    "**/*.bbl": true,
+    "**/*.blg": true,
+    "**/*.fdb_latexmk": true,
+    "**/*.fls": true,
+    "**/*.log": true,
+    "**/*.out": true,
+    "**/*.bcf": true,
+    "**/*.lof": true,
+    "**/*.lot": true,
+    "**/*.run.xml": true,
+    "**/*.toc": true,
+    "**/*.snm": true,
+    "**/*.nav": true,
+    "**/*.loa": true,
+    "**/*.synctex.gz": true,
+    "**/*.synctex(busy)": true
+  }
+}
