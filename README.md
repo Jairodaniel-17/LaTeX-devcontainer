@@ -28,3 +28,34 @@ A fully configured **LaTeX development environment** running inside a Docker con
    git clone https://github.com/Jairodaniel-17/LaTeX-devcontainer.git
    cd LaTeX-devcontainer
    ```
+
+2. **Open in VS Code**
+   Make sure you have the **Dev Containers** extension installed. Then open this folder in VS Code and it will automatically launch the container.
+
+3. **Start writing!**
+   Open or create a `.tex` file — your PDFs will compile automatically.
+
+## 📦 For What Use Cases?
+
+This container is useful for anyone who wants a **portable, isolated, and reproducible** LaTeX setup, especially:
+
+* 🧑‍🎓 Students writing theses or academic reports
+* 👩‍🔬 Researchers working on scientific papers
+* 👨‍💻 Developers documenting software in LaTeX
+* 📚 Professors and reviewers preparing teaching material or rubrics
+
+## 🛠️ Requirements
+
+* [Docker](https://www.docker.com/)
+* [Visual Studio Code](https://code.visualstudio.com/)
+* [Dev Containers Extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## 💡 Tip
+
+> You can fork this repository and customize it to your own workflow, or publish your own version on Docker Hub for CI/CD integration.
+
+Made with ❤️ by [Jairo Daniel Mendoza Torres](https://github.com/Jairodaniel-17)
