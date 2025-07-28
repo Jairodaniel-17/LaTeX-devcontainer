@@ -1,6 +1,8 @@
 {
   "name": "LaTeX DevContainer",
-  "image": "jairomt/latex-devcontainer:latest",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
   "customizations": {
     "vscode": {
       "extensions": [
@@ -16,5 +18,5 @@
     }
   },
   "remoteUser": "vscode",
-  "postCreateCommand": "mkdir -p out"
+  "postCreateCommand": "bash .devcontainer/setup.sh || true"
 }
